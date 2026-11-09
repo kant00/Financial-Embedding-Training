@@ -1,0 +1,21 @@
+# 公开文件清单。新增公开文件时，在此显式放行。
+/*
+!/.gitignore
+!/README.md
+!/LICENSE
+!/USAGE_GUIDE.md
+!/RESULTS.md
+!/requirements.txt
+!/requirements-baseline.txt
+
+!/src/
+/src/**
+!/src/*.py
+
+!/src_llm/
+/src_llm/**
+!/src_llm/*.py
+
+!/tests/
+/tests/**
+!/tests/test_*.py
